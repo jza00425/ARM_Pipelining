@@ -1,0 +1,281 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/tong/myProject/ARM_Pipelining/lab3/sim
+varm_alu
+Z1 Mx1 6 sv_std 3 std
+Z2 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+ImIDRaj1T<b6`XTVMiL77b2
+VBnjb_QQ7Z3H8Cloh8@I@U3
+S1
+Z3 w1417037803
+8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_alu.sv
+F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_alu.sv
+L0 6
+Z4 OL;L;6.5f;42
+r1
+31
+Z5 !s102 -nocovercells
+Z6 o-work work -sv -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z7 !s92 -work work -sv +incdir+/home/tong/myProject/ARM_Pipelining/lab3/sim/src -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+!s100 Y@Q0UF352Ehblmom_>i5G0
+!s85 0
+varm_barrel_shift
+R1
+R2
+IhAhiRJNEdfea36k<J[jGP3
+Vb32iFEVAob:1EP=Q<fU?V3
+S1
+R3
+8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_barrel_shift.sv
+F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_barrel_shift.sv
+L0 7
+R4
+r1
+31
+R5
+R6
+R7
+!s100 df2^^RElM255ceYIEE4KH2
+!s85 0
+varm_control
+R1
+R2
+Ijzm3YmVjDYKMijNC[^<]12
+VKf@?^Fea;W=9BkUSkQaIj0
+S1
+w1417038506
+8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_control.sv
+F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_control.sv
+L0 5
+R4
+r1
+31
+R5
+R6
+R7
+!s100 PMeeJ6:ecWX`VDTaZ?9n03
+!s85 0
+varm_ex_stage
+R1
+R2
+I^K9D_R>OOC?L9<EmY1Icj3
+VQROmCBSNG8G68ICnANc?a3
+S1
+w1417039223
+8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_ex_stage.sv
+F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_ex_stage.sv
+L0 5
+R4
+r1
+31
+R5
+R6
+R7
+!s100 YI@kWEIVeAmg>kcGYG=o00
+!s85 0
+varm_id_stage
+R1
+R2
+I2C5kbAi7B0W51o`aHCO[11
+V?I85WVZ@9b6k_nIgC:8oC1
+S1
+w1417039539
+8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_id_stage.sv
+F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_id_stage.sv
+L0 5
+R4
+r1
+31
+R5
+R6
+R7
+!s100 <kBVZU:nNF@hL4>lUDGLN1
+!s85 0
+varm_if_stage
+R1
+R2
+InkCAVhhE7z`UJXDm`cbJC3
+VBJ90ZSnB3<X`6lQQG?aDQ1
+S1
+w1417039260
+8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_if_stage.sv
+F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_if_stage.sv
+L0 2
+R4
+r1
+31
+R5
+R6
+R7
+!s100 ^2fgL4HBi]:6k:clRQKef0
+!s85 0
+varm_mac
+R1
+R2
+I]8V?AZ`mTd0am7T9iXEM^1
+VP`1B5iDgZHcJa:Dmh`HWo2
+S1
+R3
+8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_mac.sv
+F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_mac.sv
+L0 5
+R4
+r1
+31
+R5
+R6
+R7
+!s100 UMjkXPji?7CbKcz[P0FCU2
+!s85 0
+varm_mem
+IW^cE?o=P`P3LfEe]_ZhIV3
+V6gM;OHhchlhkBBLm<ec4N1
+Z8 w1417037818
+8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_mem.v
+F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_mem.v
+L0 72
+R4
+r1
+31
+R5
+Z9 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z10 !s92 -work work +incdir+/home/tong/myProject/ARM_Pipelining/lab3/sim/src -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+!s100 7iZDz_FIbOh;Y`jM_b2PZ2
+!s85 0
+varm_mem_stage
+R1
+R2
+I4i[W<6Xe>e:^[Qon_oGie0
+VDeTeoP8H>>`Nd4Le;5U:R0
+S1
+w1417039602
+8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_mem_stage.sv
+F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_mem_stage.sv
+L0 5
+R4
+r1
+31
+R5
+R6
+R7
+!s100 I9UBTdY8dnz`Oz9^`VHIT1
+!s85 0
+varm_top
+R1
+R2
+Ifg95a_CVXZh>BVYImlSd32
+V6cfS;zL:j9H_i4Wm08Vdj3
+S1
+Z11 w1417039947
+Z12 8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_top.sv
+Z13 F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_top.sv
+L0 21
+R4
+r1
+31
+R5
+R6
+R7
+!s100 dQoXN5khcdO29?jVb[QDo3
+!s85 0
+varm_wb_stage
+R1
+R2
+IYaoJB@Nn5Iz5PB?2`L>JS3
+VUamH^d=EeT]GLYfK;hTI72
+S1
+w1417039665
+8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_wb_stage.sv
+F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_wb_stage.sv
+L0 5
+R4
+r1
+31
+R5
+R6
+R7
+!s100 RX2ALmiQ2n1aM5B?FhzJd2
+!s85 0
+vclock
+!s100 =VGDPS_aDNn2X_P6mJz3Z0
+I[<R?@k0iFCbgo<d[0TMSz2
+Vi`olYVWkN<8RH3LWH<QFk3
+R8
+Z14 8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/testbench.v
+Z15 F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/testbench.v
+L0 92
+R4
+r1
+!s85 0
+31
+R5
+R9
+R10
+vhazard_detect
+R1
+R2
+IaiMaD]`aN=VPIDVA:B_UC2
+V]jPiO5R=2<n42Q4ZO<Y0e0
+S1
+w1417039408
+8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/hazard_detect.sv
+F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/hazard_detect.sv
+L0 5
+R4
+r1
+31
+R5
+R6
+R7
+!s100 GFoh^boPFnj5c[^661oPI0
+!s85 0
+vregfile
+Ia0al1j9Ph_iG?5lk8g<f52
+V3ZYR1AhCB`2<hBgO;NX9L0
+R8
+8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/regfile.v
+F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/regfile.v
+L0 34
+R4
+r1
+31
+R5
+R9
+R10
+!s100 `h`O@z<Id@YQoCa]:OOeS1
+!s85 0
+vregister
+R1
+R2
+IAUz?X5<[zUcHMKZ8_mGaL2
+VEaBzRJg7MDcJbnNQR0;?13
+S1
+R11
+R12
+R13
+L0 4
+R4
+r1
+31
+R5
+R6
+R7
+!s100 Hm[T:ThbS<FfXl;mLMKUS0
+!s85 0
+vtestbench
+!s100 4gQDRm7kL[OX`dFH?dbEk2
+I0ELLnUHdG_^oLez]ehfYS3
+VhGfW:390DM[oDMzegDH9`2
+R8
+R14
+R15
+L0 41
+R4
+r1
+!s85 0
+31
+R5
+R9
+R10

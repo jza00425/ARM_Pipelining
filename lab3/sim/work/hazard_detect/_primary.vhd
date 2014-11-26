@@ -1,0 +1,16 @@
+library verilog;
+use verilog.vl_types.all;
+entity hazard_detect is
+    port(
+        mask_of_real_read_reg: in     vl_logic_vector(2 downto 0);
+        read_reg_num    : in     vl_logic;
+        IDEX_rd_we      : in     vl_logic;
+        EXMEM_rd_we     : in     vl_logic;
+        IDEX_rd_num     : in     vl_logic_vector(3 downto 0);
+        EXMEM_rd_num    : in     vl_logic_vector(3 downto 0);
+        cond            : in     vl_logic;
+        stall           : out    vl_logic;
+        IFID_Write      : out    vl_logic;
+        PCWrite         : out    vl_logic
+    );
+end hazard_detect;

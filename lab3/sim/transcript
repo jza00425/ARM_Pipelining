@@ -1,0 +1,236 @@
+# //  QuestaSim-64 6.5f Jun 16 2010 Linux 3.13.0-40-generic
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project arm_pipeline
+# Compile of arm_alu.sv failed with 2 errors.
+# Compile of arm_barrel_shift.sv failed with 2 errors.
+# Compile of arm_control.sv failed with 2 errors.
+# Compile of arm_ex_stage.sv failed with 2 errors.
+# Compile of arm_id_stage.sv failed with 2 errors.
+# Compile of arm_if_stage.sv failed with 1 errors.
+# Compile of arm_mac.sv failed with 1 errors.
+# Compile of arm_mem.v was successful.
+# Compile of arm_mem_stage.sv failed with 2 errors.
+# Compile of arm_top.sv failed with 2 errors.
+# Compile of arm_wb_stage.sv failed with 2 errors.
+# Compile of hazard_detect.sv failed with 2 errors.
+# Compile of regfile.v was successful.
+# Compile of testbench.v was successful.
+# 14 compiles, 11 failed with 20 errors. 
+# Compile of arm_alu.sv was successful.
+# Compile of arm_barrel_shift.sv was successful.
+# Compile of arm_control.sv failed with 1 errors.
+# Compile of arm_ex_stage.sv failed with 1 errors.
+# Compile of arm_id_stage.sv failed with 1 errors.
+# Compile of arm_if_stage.sv failed with 1 errors.
+# Compile of arm_mac.sv was successful.
+# Compile of arm_mem.v was successful.
+# Compile of arm_mem_stage.sv failed with 1 errors.
+# Compile of arm_top.sv failed with 1 errors.
+# Compile of arm_wb_stage.sv failed with 1 errors.
+# Compile of hazard_detect.sv failed with 1 errors.
+# Compile of regfile.v was successful.
+# Compile of testbench.v was successful.
+# 14 compiles, 8 failed with 8 errors. 
+# Compile of arm_alu.sv was successful.
+# Compile of arm_barrel_shift.sv was successful.
+# Compile of arm_control.sv was successful.
+# Compile of arm_ex_stage.sv was successful.
+# Compile of arm_id_stage.sv failed with 1 errors.
+# Compile of arm_if_stage.sv failed with 1 errors.
+# Compile of arm_mac.sv was successful.
+# Compile of arm_mem.v was successful.
+# Compile of arm_mem_stage.sv failed with 1 errors.
+# Compile of arm_top.sv failed with 1 errors.
+# Compile of arm_wb_stage.sv failed with 1 errors.
+# Compile of hazard_detect.sv failed with 1 errors.
+# Compile of regfile.v was successful.
+# Compile of testbench.v was successful.
+# 14 compiles, 6 failed with 6 errors. 
+# Compile of arm_alu.sv was successful.
+# Compile of arm_barrel_shift.sv was successful.
+# Compile of arm_control.sv was successful.
+# Compile of arm_ex_stage.sv was successful.
+# Compile of arm_id_stage.sv failed with 1 errors.
+# Compile of arm_if_stage.sv was successful.
+# Compile of arm_mac.sv was successful.
+# Compile of arm_mem.v was successful.
+# Compile of arm_mem_stage.sv failed with 1 errors.
+# Compile of arm_top.sv failed with 1 errors.
+# Compile of arm_wb_stage.sv failed with 1 errors.
+# Compile of hazard_detect.sv failed with 1 errors.
+# Compile of regfile.v was successful.
+# Compile of testbench.v was successful.
+# 14 compiles, 5 failed with 5 errors. 
+# Compile of arm_alu.sv was successful.
+# Compile of arm_barrel_shift.sv was successful.
+# Compile of arm_control.sv was successful.
+# Compile of arm_ex_stage.sv was successful.
+# Compile of arm_id_stage.sv failed with 1 errors.
+# Compile of arm_if_stage.sv was successful.
+# Compile of arm_mac.sv was successful.
+# Compile of arm_mem.v was successful.
+# Compile of arm_mem_stage.sv failed with 1 errors.
+# Compile of arm_top.sv failed with 1 errors.
+# Compile of arm_wb_stage.sv failed with 1 errors.
+# Compile of hazard_detect.sv failed with 1 errors.
+# Compile of regfile.v was successful.
+# Compile of testbench.v was successful.
+# 14 compiles, 5 failed with 5 errors. 
+# Compile of arm_alu.sv was successful.
+# Compile of arm_barrel_shift.sv was successful.
+# Compile of arm_control.sv was successful.
+# Compile of arm_ex_stage.sv was successful.
+# Compile of arm_id_stage.sv failed with 1 errors.
+# Compile of arm_if_stage.sv was successful.
+# Compile of arm_mac.sv was successful.
+# Compile of arm_mem.v was successful.
+# Compile of arm_mem_stage.sv failed with 1 errors.
+# Compile of arm_top.sv failed with 1 errors.
+# Compile of arm_wb_stage.sv failed with 1 errors.
+# Compile of hazard_detect.sv was successful.
+# Compile of regfile.v was successful.
+# Compile of testbench.v was successful.
+# 14 compiles, 4 failed with 4 errors. 
+# Compile of arm_alu.sv was successful.
+# Compile of arm_barrel_shift.sv was successful.
+# Compile of arm_control.sv was successful.
+# Compile of arm_ex_stage.sv was successful.
+# Compile of arm_id_stage.sv was successful.
+# Compile of arm_if_stage.sv was successful.
+# Compile of arm_mac.sv was successful.
+# Compile of arm_mem.v was successful.
+# Compile of arm_mem_stage.sv failed with 1 errors.
+# Compile of arm_top.sv failed with 1 errors.
+# Compile of arm_wb_stage.sv failed with 1 errors.
+# Compile of hazard_detect.sv was successful.
+# Compile of regfile.v was successful.
+# Compile of testbench.v was successful.
+# 14 compiles, 3 failed with 3 errors. 
+# Compile of arm_alu.sv was successful.
+# Compile of arm_barrel_shift.sv was successful.
+# Compile of arm_control.sv was successful.
+# Compile of arm_ex_stage.sv was successful.
+# Compile of arm_id_stage.sv was successful.
+# Compile of arm_if_stage.sv was successful.
+# Compile of arm_mac.sv was successful.
+# Compile of arm_mem.v was successful.
+# Compile of arm_mem_stage.sv was successful.
+# Compile of arm_top.sv failed with 1 errors.
+# Compile of arm_wb_stage.sv failed with 1 errors.
+# Compile of hazard_detect.sv was successful.
+# Compile of regfile.v was successful.
+# Compile of testbench.v was successful.
+# 14 compiles, 2 failed with 2 errors. 
+# Compile of arm_alu.sv was successful.
+# Compile of arm_barrel_shift.sv was successful.
+# Compile of arm_control.sv was successful.
+# Compile of arm_ex_stage.sv was successful.
+# Compile of arm_id_stage.sv was successful.
+# Compile of arm_if_stage.sv was successful.
+# Compile of arm_mac.sv was successful.
+# Compile of arm_mem.v was successful.
+# Compile of arm_mem_stage.sv was successful.
+# Compile of arm_top.sv failed with 1 errors.
+# Compile of arm_wb_stage.sv failed with 1 errors.
+# Compile of hazard_detect.sv was successful.
+# Compile of regfile.v was successful.
+# Compile of testbench.v was successful.
+# 14 compiles, 2 failed with 2 errors. 
+# Compile of arm_alu.sv was successful.
+# Compile of arm_barrel_shift.sv was successful.
+# Compile of arm_control.sv was successful.
+# Compile of arm_ex_stage.sv was successful.
+# Compile of arm_id_stage.sv was successful.
+# Compile of arm_if_stage.sv was successful.
+# Compile of arm_mac.sv was successful.
+# Compile of arm_mem.v was successful.
+# Compile of arm_mem_stage.sv was successful.
+# Compile of arm_top.sv failed with 1 errors.
+# Compile of arm_wb_stage.sv was successful.
+# Compile of hazard_detect.sv was successful.
+# Compile of regfile.v was successful.
+# Compile of testbench.v was successful.
+# 14 compiles, 1 failed with 1 error. 
+# Compile of arm_alu.sv was successful.
+# Compile of arm_barrel_shift.sv was successful.
+# Compile of arm_control.sv was successful.
+# Compile of arm_ex_stage.sv was successful.
+# Compile of arm_id_stage.sv was successful.
+# Compile of arm_if_stage.sv was successful.
+# Compile of arm_mac.sv was successful.
+# Compile of arm_mem.v was successful.
+# Compile of arm_mem_stage.sv was successful.
+# Compile of arm_top.sv failed with 1 errors.
+# Compile of arm_wb_stage.sv was successful.
+# Compile of hazard_detect.sv was successful.
+# Compile of regfile.v was successful.
+# Compile of testbench.v was successful.
+# 14 compiles, 1 failed with 1 error. 
+# Compile of arm_alu.sv was successful.
+# Compile of arm_barrel_shift.sv was successful.
+# Compile of arm_control.sv was successful.
+# Compile of arm_ex_stage.sv was successful.
+# Compile of arm_id_stage.sv was successful.
+# Compile of arm_if_stage.sv was successful.
+# Compile of arm_mac.sv was successful.
+# Compile of arm_mem.v was successful.
+# Compile of arm_mem_stage.sv was successful.
+# Compile of arm_top.sv failed with 1 errors.
+# Compile of arm_wb_stage.sv was successful.
+# Compile of hazard_detect.sv was successful.
+# Compile of regfile.v was successful.
+# Compile of testbench.v was successful.
+# 14 compiles, 1 failed with 1 error. 
+# Compile of arm_alu.sv was successful.
+# Compile of arm_barrel_shift.sv was successful.
+# Compile of arm_control.sv was successful.
+# Compile of arm_ex_stage.sv was successful.
+# Compile of arm_id_stage.sv was successful.
+# Compile of arm_if_stage.sv was successful.
+# Compile of arm_mac.sv was successful.
+# Compile of arm_mem.v was successful.
+# Compile of arm_mem_stage.sv was successful.
+# Compile of arm_top.sv failed with 1 errors.
+# Compile of arm_wb_stage.sv was successful.
+# Compile of hazard_detect.sv was successful.
+# Compile of regfile.v was successful.
+# Compile of testbench.v was successful.
+# 14 compiles, 1 failed with 1 error. 
+# Compile of arm_alu.sv was successful.
+# Compile of arm_barrel_shift.sv was successful.
+# Compile of arm_control.sv was successful.
+# Compile of arm_ex_stage.sv was successful.
+# Compile of arm_id_stage.sv was successful.
+# Compile of arm_if_stage.sv was successful.
+# Compile of arm_mac.sv was successful.
+# Compile of arm_mem.v was successful.
+# Compile of arm_mem_stage.sv was successful.
+# Compile of arm_top.sv failed with 1 errors.
+# Compile of arm_wb_stage.sv was successful.
+# Compile of hazard_detect.sv was successful.
+# Compile of regfile.v was successful.
+# Compile of testbench.v was successful.
+# 14 compiles, 1 failed with 1 error. 
+# Compile of arm_alu.sv was successful.
+# Compile of arm_barrel_shift.sv was successful.
+# Compile of arm_control.sv was successful.
+# Compile of arm_ex_stage.sv was successful.
+# Compile of arm_id_stage.sv was successful.
+# Compile of arm_if_stage.sv was successful.
+# Compile of arm_mac.sv was successful.
+# Compile of arm_mem.v was successful.
+# Compile of arm_mem_stage.sv was successful.
+# Compile of arm_top.sv was successful.
+# Compile of arm_wb_stage.sv was successful.
+# Compile of hazard_detect.sv was successful.
+# Compile of regfile.v was successful.
+# Compile of testbench.v was successful.
+# 14 compiles, 0 failed with no errors. 

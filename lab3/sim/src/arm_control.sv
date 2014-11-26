@@ -85,8 +85,8 @@ always_comb begin
 		pc_we = 1'b0;
 		cpsr_we = 1'b0;
 		// rn_sel = 1'bx;
-		rd_sel = 1'x;
-		rd_data_sel = 1'x;
+		rd_sel = 1'bx;
+		rd_data_sel = 1'bx;
 		halted = 1'b1;
 		mem_write_en = 0;
 		ld_byte_or_word = 1'bx;

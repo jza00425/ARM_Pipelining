@@ -64,8 +64,6 @@ wire [3:0] alu_sel;
 wire [3:0] cpsr_mask;
 wire is_alu_for_mem_addr;
 wire stall;
-wire PCWrite;
-
 
 assign real_PCWrite = pc_we & PCWrite;
 assign data0_reg_num = read_reg_num[0];
@@ -131,7 +129,7 @@ always_ff @ (posedge clk) begin
 		IDEX_rs_or_rd_data <= 'x;
 		IDEX_rn_data <= 'x;
 		IDEX_rm_data <= 'x;
-	end else if (stall = 1'b0) begin
+	end else if (stall == 1'b0) begin
 		IDEX_rd_we <= 1'b0;
 		IDEX_cpsr_we <= 1'b0;
 		IDEX_rd_sel <= 1'bx;
