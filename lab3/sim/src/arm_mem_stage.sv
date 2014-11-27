@@ -12,6 +12,7 @@ module arm_mem_stage (
 	input wire [3:0] EXMEM_mem_write_en,
 	input wire EXMEM_ld_byte_or_word,
 	input wire [31:0] mem_data_out,
+	output wire [29:0] mem_addr,
 	output wire [3:0] mem_write_en,
 	output logic [31:0] MEMWB_data_read_from_mem,
 	output logic [31:0] MEMWB_rd_data,
@@ -29,6 +30,7 @@ assign for_modified_mem_data_out = {2{mem_data_out}};
 assign modified_mem_data_out = for_modified_mem_data_out[word_offset + 31 -: 32];
 
 assign mem_write_en = EXMEM_mem_write_en;
+assign mem_addr = EXMEM_data_result[31:2];
 
 always_ff @ (posedge clk) begin
 	MEMWB_data_read_from_mem <= (EXMEM_ld_byte_or_word) ? {24'h000000, modified_mem_data_out} : modified_mem_data_out;

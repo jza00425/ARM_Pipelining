@@ -77,7 +77,6 @@ hazard_detect detector (
 	.EXMEM_rd_we(MEMID_rd_we),
 	.IDEX_rd_num(EXID_rd_num),
 	.EXMEM_rd_num(MEMID_rd_num),
-	.IDEX_cpsr_we(EXID_cpsr_we),
 	.cond(inst[31:28]),	//inst[31:28]
 	.stall(stall),
 	.IFID_Write(IFID_Write),

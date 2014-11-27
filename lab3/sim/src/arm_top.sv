@@ -23,6 +23,8 @@ module arm_top (
 	input wire rst_b,
 	input wire [31:0] inst,
 	input wire [31:0] mem_data_out,
+	output wire [29:0] inst_addr,
+	output wire [29:0] mem_addr,
 	output wire [31:0] mem_data_in,
 	output wire [3:0] mem_write_en,
 	output wire halted
@@ -83,6 +85,8 @@ wire [31:0] WB_data;
 wire WB_rd_we;
 wire [3:0] WB_des_reg_num;
 
+assign inst_addr = pc_from_regfile[31:2];
+
 arm_if_stage if_stage(
 	.pc(pc_from_regfile),
 	.IFID_Write(IFID_Write),
@@ -130,7 +134,7 @@ arm_id_stage id_stage(
 	.IDEX_cpsr(IDEX_cpsr),
 	.IDEX_inst_11_0(IDEX_inst_11_0),
 	.IDEX_inst_19_16(IDEX_inst_19_16),
-	.IDEX_inst_15_12(IDEX_Inst_15_12),
+	.IDEX_inst_15_12(IDEX_inst_15_12),
 	.IFID_Write(IFID_Write)
 );
 
@@ -177,6 +181,7 @@ arm_mem_stage mem_stage (
 	.EXMEM_mem_write_en(EXMEM_mem_write_en),
 	.EXMEM_ld_byte_or_word(EXMEM_ld_byte_or_word),
 	.mem_data_out(mem_data_out),
+	.mem_addr(mem_addr),
 	.mem_write_en(mem_data_en),
 	.MEMWB_data_read_from_mem(MEMWB_data_read_from_mem),
 	.MEMWB_rd_data(MEMWB_rd_data),

@@ -9,7 +9,6 @@ module hazard_detect (
 	input wire EXMEM_rd_we,
 	input wire [3:0] IDEX_rd_num,
 	input wire [3:0] EXMEM_rd_num,
-	// input wire IDEX_cpsr_we,
 	input wire cond,	//inst[31:28]
 	output logic stall,
 	output logic IFID_Write,

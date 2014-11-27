@@ -11,6 +11,7 @@ entity arm_mem_stage is
         EXMEM_mem_write_en: in     vl_logic_vector(3 downto 0);
         EXMEM_ld_byte_or_word: in     vl_logic;
         mem_data_out    : in     vl_logic_vector(31 downto 0);
+        mem_addr        : out    vl_logic_vector(29 downto 0);
         mem_write_en    : out    vl_logic_vector(3 downto 0);
         MEMWB_data_read_from_mem: out    vl_logic_vector(31 downto 0);
         MEMWB_rd_data   : out    vl_logic_vector(31 downto 0);
