@@ -99,7 +99,7 @@ arm_if_stage if_stage(
 arm_id_stage id_stage(
 	.clk(clk),
 	.rst_b(rst_b),
-	.inst(inst),
+	.inst(IFID_inst),
 	.data0(data0),
 	.data1(data1),
 	.data2(data2),
@@ -162,6 +162,8 @@ arm_ex_stage ex_stage(
 	.IDEX_rm_data(IDEX_rm_data),
 	.cpsr_result_in_EX(cpsr_result_in_EX),
 	.cpsr_we(EXID_cpsr_we),
+	.EXID_rd_we(EXID_rd_we),
+	.EXID_rd_num(EXID_rd_num),
 	.EXMEM_data_result(EXMEM_data_result),
 	.EXMEM_rd_data(EXMEM_rd_data),
 	.EXMEM_rd_we(EXMEM_rd_we),
@@ -182,7 +184,9 @@ arm_mem_stage mem_stage (
 	.EXMEM_ld_byte_or_word(EXMEM_ld_byte_or_word),
 	.mem_data_out(mem_data_out),
 	.mem_addr(mem_addr),
-	.mem_write_en(mem_data_en),
+	.mem_write_en(mem_write_en),
+	.MEMID_rd_we(MEMID_rd_we),
+	.MEMID_rd_num(MEMID_rd_num),
 	.MEMWB_data_read_from_mem(MEMWB_data_read_from_mem),
 	.MEMWB_rd_data(MEMWB_rd_data),
 	.MEMWB_rd_we(MEMWB_rd_we),
@@ -223,6 +227,14 @@ regfile register_file(
 	.halted(internal_halted)
 );
 
-register #(1, 0) Halt(halted, internal_halt, clk, 1'b1, rst_b);
+register #(1, 0) Halt(
+	.q(halted),
+	.d(internal_halt),
+	.clk(clk),
+	.enable(1'b1),
+	.rst_b(rst_b)
+);
+
+// register #(1, 0) Halt(halted, internal_halt, clk, 1'b1, rst_b);
 
 endmodule

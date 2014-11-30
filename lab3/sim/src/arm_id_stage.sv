@@ -71,13 +71,13 @@ assign data1_reg_num = read_reg_num[1];
 assign data2_reg_num = read_reg_num[2];
 
 hazard_detect detector (
+	.rst_b(rst_b),
 	.mask_of_real_read_reg(mask_of_real_read_reg),
 	.read_reg_num(read_reg_num),
 	.IDEX_rd_we(EXID_rd_we),
 	.EXMEM_rd_we(MEMID_rd_we),
 	.IDEX_rd_num(EXID_rd_num),
 	.EXMEM_rd_num(MEMID_rd_num),
-	.cond(inst[31:28]),	//inst[31:28]
 	.stall(stall),
 	.IFID_Write(IFID_Write),
 	.PCWrite(PCWrite)
@@ -98,7 +98,6 @@ arm_control ctrl (
 	.alu_or_mac(alu_or_mac),	//1: alu; 0: mac
 	.up_down(up_down),			//for LD/ST, calculate mem_addr by add or sub op2
 	.mac_sel(mac_sel), 		//MUL/MULA
-	// .is_for_store(is_for_store),
 	.mask_of_real_read_reg(mask_of_real_read_reg),
 	.read_reg_num(read_reg_num),
 	.alu_sel(alu_sel),
@@ -128,7 +127,7 @@ always_ff @ (posedge clk) begin
 		IDEX_rs_or_rd_data <= 'x;
 		IDEX_rn_data <= 'x;
 		IDEX_rm_data <= 'x;
-	end else if (stall == 1'b0) begin
+	end else if (stall == 1'b1) begin
 		IDEX_rd_we <= 1'b0;
 		IDEX_cpsr_we <= 1'b0;
 		IDEX_rd_sel <= 1'bx;
@@ -166,7 +165,7 @@ always_ff @ (posedge clk) begin
 		IDEX_cpsr = (EXID_cpsr_we == 1'b0) ? cpsr_out : EXID_cpsr;
 		IDEX_inst_11_0 <= inst[11:0];
 		IDEX_inst_19_16 <= inst[19:16];
-		IDEX_inst_15_12 <= inst[15:11];
+		IDEX_inst_15_12 <= inst[15:12];
 		IDEX_rs_or_rd_data <= data2;
 		IDEX_rn_data <= data0;
 		IDEX_rm_data <= data1;

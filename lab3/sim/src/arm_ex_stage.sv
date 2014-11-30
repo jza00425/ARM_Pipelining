@@ -11,7 +11,6 @@ module arm_ex_stage (
 	input wire IDEX_alu_or_mac,
 	input wire IDEX_up_down,
 	input wire IDEX_mac_sel,
-	// input wire IDEX_is_for_store,
 	input wire [3:0] IDEX_alu_sel,
 	input wire [3:0] IDEX_cpsr_mask,
 	input wire IDEX_is_alu_for_mem_addr,
@@ -27,11 +26,12 @@ module arm_ex_stage (
 	input wire [31:0] IDEX_rm_data,
 	output wire [31:0] cpsr_result_in_EX,
 	output wire cpsr_we,
+	output wire EXID_rd_we,
+	output wire [3:0] EXID_rd_num,
 	output logic [31:0] EXMEM_data_result,
 	output logic [31:0] EXMEM_rd_data,
 	output logic EXMEM_rd_we,
 	output logic EXMEM_rd_data_sel,
-	// output logic EXMEM_is_for_store,
 	output logic [3:0] EXMEM_des_reg_num,
 	output logic [3:0] EXMEM_mem_write_en,
 	output logic EXMEM_ld_byte_or_word
@@ -50,6 +50,8 @@ assign final_cpsr_mask = (IDEX_alu_or_mac) ? IDEX_cpsr_mask : 4'b1100;
 assign tmp_cpsr = (IDEX_alu_or_mac) ? alu_cpsr : mac_cpsr; 
 assign cpsr_result_in_EX = ({~final_cpsr_mask, 28'hfffffff} & IDEX_cpsr) | {(final_cpsr_mask & tmp_cpsr), 28'h0000000};
 assign cpsr_we = IDEX_cpsr_we;
+assign EXID_rd_we = IDEX_rd_we;
+assign EXID_rd_num = (IDEX_rd_sel == 1'b1) ? IDEX_inst_15_12 : IDEX_inst_19_16;
 
 arm_barrel_shift barrel_shift (
 	.inst_11_0(IDEX_inst_11_0),
@@ -90,7 +92,6 @@ always_ff @ (posedge clk) begin
 	EXMEM_rd_data <= IDEX_rs_or_rd_data;
 	EXMEM_rd_we <= IDEX_rd_we;
 	EXMEM_rd_data_sel <= IDEX_rd_data_sel;
-	// EXMEM_is_for_store <= IDEX_is_for_store;
 	EXMEM_des_reg_num <= (IDEX_rd_sel == 1'b1) ? IDEX_inst_15_12 : IDEX_inst_19_16;
 	EXMEM_mem_write_en <= IDEX_mem_write_en;
 	EXMEM_ld_byte_or_word <= IDEX_ld_byte_or_word;

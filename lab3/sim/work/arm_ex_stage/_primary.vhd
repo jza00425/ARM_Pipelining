@@ -25,6 +25,8 @@ entity arm_ex_stage is
         IDEX_rm_data    : in     vl_logic_vector(31 downto 0);
         cpsr_result_in_EX: out    vl_logic_vector(31 downto 0);
         cpsr_we         : out    vl_logic;
+        EXID_rd_we      : out    vl_logic;
+        EXID_rd_num     : out    vl_logic_vector(3 downto 0);
         EXMEM_data_result: out    vl_logic_vector(31 downto 0);
         EXMEM_rd_data   : out    vl_logic_vector(31 downto 0);
         EXMEM_rd_we     : out    vl_logic;

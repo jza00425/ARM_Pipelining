@@ -42,10 +42,10 @@ R7
 varm_control
 R1
 R2
-Ijzm3YmVjDYKMijNC[^<]12
+IN1eJ^gPOfWS>@2EklnBWl3
 VKf@?^Fea;W=9BkUSkQaIj0
 S1
-w1417038506
+w1417385958
 8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_control.sv
 F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_control.sv
 L0 5
@@ -55,15 +55,15 @@ r1
 R5
 R6
 R7
-!s100 PMeeJ6:ecWX`VDTaZ?9n03
+!s100 <DEImoYN;SLEVHILHFROI1
 !s85 0
 varm_ex_stage
 R1
 R2
-I^K9D_R>OOC?L9<EmY1Icj3
-VQROmCBSNG8G68ICnANc?a3
+I3B:5YN3e=RSD5?eMAD;Wl1
+ViOTeM`WLo]0c_ZI[aR`AV2
 S1
-w1417039223
+w1417380399
 8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_ex_stage.sv
 F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_ex_stage.sv
 L0 5
@@ -73,15 +73,15 @@ r1
 R5
 R6
 R7
-!s100 YI@kWEIVeAmg>kcGYG=o00
+!s100 7`4dA_n3MhEQeR7LS9N[E1
 !s85 0
 varm_id_stage
 R1
 R2
-IIbC^0G@Me:<<]1E`O]Y]Y1
+I5Q9Cb:99C@TQYjIezc5bh1
 V?I85WVZ@9b6k_nIgC:8oC1
 S1
-w1417116512
+w1417385406
 8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_id_stage.sv
 F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_id_stage.sv
 L0 5
@@ -91,7 +91,7 @@ r1
 R5
 R6
 R7
-!s100 ZzlnHfVi@RZg_TK6GJ^C23
+!s100 cl^GAJPEHiN658gdOVbjk2
 !s85 0
 varm_if_stage
 R1
@@ -147,10 +147,10 @@ Z10 !s92 -work work +incdir+/home/tong/myProject/ARM_Pipelining/lab3/sim/src -no
 varm_mem_stage
 R1
 R2
-ISS3zIe2Y0oULBW03R6=UI0
-VEb]0PleFKobTQFKnilbA?0
+IXc@^;E`X>acj7kdd0:[5^2
+Vl82^mdISYAk7CWDdce:Sl1
 S1
-w1417116144
+w1417383874
 8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_mem_stage.sv
 F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_mem_stage.sv
 L0 5
@@ -160,15 +160,15 @@ r1
 R5
 R6
 R7
-!s100 =ELg6X]=0AglL379P1NHO2
+!s100 34n<<:6cOH:3kKBd_O>Mz3
 !s85 0
 varm_top
 R1
 R2
-IVRYAMCe;31h7]kS?7MAz]3
+I1h^]M;PVK;>RR]RY`Omc?0
 V3QLjlmN@;k363en6nSTM31
 S1
-Z11 w1417116264
+Z11 w1417383873
 Z12 8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_top.sv
 Z13 F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_top.sv
 L0 21
@@ -178,7 +178,7 @@ r1
 R5
 R6
 R7
-!s100 2j8DcdA;SD[7]cEEn3FI82
+!s100 mbz34YTSUEYEFBl7jX22o2
 !s85 0
 varm_wb_stage
 R1
@@ -216,10 +216,10 @@ R10
 vhazard_detect
 R1
 R2
-IG]z7D3;<8jMUm2:S9D70Z2
-V]jPiO5R=2<n42Q4ZO<Y0e0
+IBBJ?YcjzU1olYi2i8F3M^3
+VeimYjGz`F:izI7Mb5LdVL0
 S1
-w1417116514
+w1417384549
 8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/hazard_detect.sv
 F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/hazard_detect.sv
 L0 5
@@ -229,7 +229,7 @@ r1
 R5
 R6
 R7
-!s100 Q1A;AHk;fhSoZdXjQH@E?3
+!s100 oQUX]_7YbP9Cniz[>cKE<3
 !s85 0
 vregfile
 Ia0al1j9Ph_iG?5lk8g<f52
