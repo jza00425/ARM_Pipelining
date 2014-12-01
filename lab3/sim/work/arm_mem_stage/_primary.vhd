@@ -13,6 +13,7 @@ entity arm_mem_stage is
         mem_data_out    : in     vl_logic_vector(31 downto 0);
         mem_addr        : out    vl_logic_vector(29 downto 0);
         mem_write_en    : out    vl_logic_vector(3 downto 0);
+        mem_data_in     : out    vl_logic_vector(31 downto 0);
         MEMID_rd_we     : out    vl_logic;
         MEMID_rd_num    : out    vl_logic_vector(3 downto 0);
         MEMWB_data_read_from_mem: out    vl_logic_vector(31 downto 0);

@@ -3,6 +3,7 @@ use verilog.vl_types.all;
 entity arm_top is
     port(
         clk             : in     vl_logic;
+        reg_mem_clk     : in     vl_logic;
         rst_b           : in     vl_logic;
         inst            : in     vl_logic_vector(31 downto 0);
         mem_data_out    : in     vl_logic_vector(31 downto 0);

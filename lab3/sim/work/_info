@@ -42,10 +42,10 @@ R7
 varm_control
 R1
 R2
-IN1eJ^gPOfWS>@2EklnBWl3
+IkOICIGJQLiMz:GaS<odOG2
 VKf@?^Fea;W=9BkUSkQaIj0
 S1
-w1417385958
+w1417457213
 8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_control.sv
 F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_control.sv
 L0 5
@@ -55,7 +55,7 @@ r1
 R5
 R6
 R7
-!s100 <DEImoYN;SLEVHILHFROI1
+!s100 e?:1aPkK69AYS2TBJ]]_e0
 !s85 0
 varm_ex_stage
 R1
@@ -147,10 +147,10 @@ Z10 !s92 -work work +incdir+/home/tong/myProject/ARM_Pipelining/lab3/sim/src -no
 varm_mem_stage
 R1
 R2
-IXc@^;E`X>acj7kdd0:[5^2
-Vl82^mdISYAk7CWDdce:Sl1
+Il9Yc3modV6geFI[TCnW=93
+VZV:d_Wh_@:e3e5:b0Q_VD3
 S1
-w1417383874
+w1417465024
 8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_mem_stage.sv
 F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_mem_stage.sv
 L0 5
@@ -160,15 +160,15 @@ r1
 R5
 R6
 R7
-!s100 34n<<:6cOH:3kKBd_O>Mz3
+!s100 1IZake:JoeWDU=5kiWB0z2
 !s85 0
 varm_top
 R1
 R2
-I1h^]M;PVK;>RR]RY`Omc?0
-V3QLjlmN@;k363en6nSTM31
+IUmHjjNCbj]A7m<fa6YV9f1
+Vb=F59lCmgT_8^9[EBYCJZ1
 S1
-Z11 w1417383873
+Z11 w1417459887
 Z12 8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_top.sv
 Z13 F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_top.sv
 L0 21
@@ -178,7 +178,7 @@ r1
 R5
 R6
 R7
-!s100 mbz34YTSUEYEFBl7jX22o2
+!s100 381oFbCYjbKTe9:o<j2kf0
 !s85 0
 varm_wb_stage
 R1
@@ -199,13 +199,13 @@ R7
 !s100 RX2ALmiQ2n1aM5B?FhzJd2
 !s85 0
 vclock
-!s100 =VGDPS_aDNn2X_P6mJz3Z0
-I[<R?@k0iFCbgo<d[0TMSz2
-Vi`olYVWkN<8RH3LWH<QFk3
-R8
-Z14 8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/testbench.v
-Z15 F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/testbench.v
-L0 92
+!s100 @UnIO=555zeaS:5Djh7e53
+IgJVH9RSN1;ZYRLF<Z5V1i3
+VE:;PMo@@7=HSMoa^X;`RG3
+Z14 w1417448547
+Z15 8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/testbench.v
+Z16 F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/testbench.v
+L0 93
 R4
 r1
 !s85 0
@@ -265,12 +265,12 @@ R7
 !s100 Hm[T:ThbS<FfXl;mLMKUS0
 !s85 0
 vtestbench
-!s100 4gQDRm7kL[OX`dFH?dbEk2
-I0ELLnUHdG_^oLez]ehfYS3
+!s100 e2NYl]CKYiDfZzjXiEHKX0
+IGB?[;:?fW3:<4YZE@hzHR0
 VhGfW:390DM[oDMzegDH9`2
-R8
 R14
 R15
+R16
 L0 41
 R4
 r1

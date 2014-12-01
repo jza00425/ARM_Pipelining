@@ -116,7 +116,8 @@ always_comb begin
 			rd_we = 1'b0;
 			rd_data_sel = 1'bx;
 			mem_write_en = 4'hf;
-			ld_byte_or_word = 1'bx;
+			ld_byte_or_word = (inst[22]) ? 1'b1 : 1'b0;
+			// ld_byte_or_word = 1'bx;
 			mask_of_real_read_reg[2] = 1'b1;
 			read_reg_num[2] = inst[15:12];
 		end
@@ -152,7 +153,7 @@ always_comb begin
 		alu_or_mac = 1'b1;
 		mask_of_real_read_reg[0] = (inst[24:21] != 4'b1101) ? 1'b1 : 1'b0; 
 		mask_of_real_read_reg[1] = (inst[25] == 1'b0) ? 1'b1 : 1'b0;
-		mask_of_real_read_reg[2] = (inst[4] == 1'b1) ? 1'b1 : 1'b0;
+		mask_of_real_read_reg[2] = ((inst[25] == 1'b0) && (inst[4] == 1'b1)) ? 1'b1 : 1'b0;
 		read_reg_num[0] = inst[19:16];
 		read_reg_num[1] = inst[3:0];
 		read_reg_num[2] = inst[11:8];

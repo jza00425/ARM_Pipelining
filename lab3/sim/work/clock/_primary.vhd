@@ -6,6 +6,7 @@ entity clock is
         halfPeriod      : integer := 50
     );
     port(
-        clockSignal     : out    vl_logic
+        clockSignal     : out    vl_logic;
+        reg_mem_clk     : out    vl_logic
     );
 end clock;

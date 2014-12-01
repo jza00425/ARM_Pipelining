@@ -20,6 +20,7 @@ endmodule
 
 module arm_top (
 	input wire clk,
+	input wire reg_mem_clk,
 	input wire rst_b,
 	input wire [31:0] inst,
 	input wire [31:0] mem_data_out,
@@ -184,6 +185,7 @@ arm_mem_stage mem_stage (
 	.EXMEM_ld_byte_or_word(EXMEM_ld_byte_or_word),
 	.mem_data_out(mem_data_out),
 	.mem_addr(mem_addr),
+	.mem_data_in(mem_data_in),
 	.mem_write_en(mem_write_en),
 	.MEMID_rd_we(MEMID_rd_we),
 	.MEMID_rd_num(MEMID_rd_num),
@@ -222,7 +224,7 @@ regfile register_file(
 	.pc_we(real_PCWrite),
 	.cpsr_in(cpsr_result_in_EX),
 	.cpsr_we(EXID_cpsr_we),
-	.clk(clk),
+	.clk(reg_mem_clk),
 	.rst_b(rst_b),
 	.halted(internal_halted)
 );
