@@ -105,20 +105,18 @@ always_comb begin
 		mask_of_real_read_reg[1] = (inst[25] == 1'b1) ? 1'b1 : 1'b0;
 		read_reg_num[0] = inst[19:16];
 		read_reg_num[1] = inst[3:0];
+		ld_byte_or_word = (inst[22]) ? 1'b1 : 1'b0;
 		if (inst[20] == 1'b1) begin 	//LOAD
 			rd_we = 1'b1;
 			rd_data_sel = 1'b0;
-			mem_write_en = 0;
-			ld_byte_or_word = (inst[22]) ? 1'b1 : 1'b0;
 			mask_of_real_read_reg[2] = 1'b0;
+			mem_write_en = 4'h0;
 			read_reg_num[2] = 3'bxxx;
 		end else begin			//STORE
 			rd_we = 1'b0;
 			rd_data_sel = 1'bx;
-			mem_write_en = 4'hf;
-			ld_byte_or_word = (inst[22]) ? 1'b1 : 1'b0;
-			// ld_byte_or_word = 1'bx;
 			mask_of_real_read_reg[2] = 1'b1;
+			mem_write_en = 4'hf;
 			read_reg_num[2] = inst[15:12];
 		end
 	end else if ((inst[27:25] == 3'b000) && (inst[7:4] == 4'b1001)) begin //MUL

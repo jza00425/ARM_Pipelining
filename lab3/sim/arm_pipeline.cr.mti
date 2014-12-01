@@ -77,12 +77,12 @@ QuestaSim-64 vlog 6.5f Compiler 2010.06 Jun 16 2010
 Top level modules:
 	arm_ex_stage
 
-} {} {}} /home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_if_stage.sv {1 {vlog -work work -novopt -sv +incdir+/home/tong/myProject/ARM_Pipelining/lab3/sim/src -nocovercells /home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_if_stage.sv
+} {} {}} /home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_control.sv {1 {vlog -work work -novopt -sv +incdir+/home/tong/myProject/ARM_Pipelining/lab3/sim/src -nocovercells /home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_control.sv
 QuestaSim-64 vlog 6.5f Compiler 2010.06 Jun 16 2010
--- Compiling module arm_if_stage
+-- Compiling module arm_control
 
 Top level modules:
-	arm_if_stage
+	arm_control
 
 } {} {}} /home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_mem_stage.sv {1 {vlog -work work -novopt -sv +incdir+/home/tong/myProject/ARM_Pipelining/lab3/sim/src -nocovercells /home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_mem_stage.sv
 QuestaSim-64 vlog 6.5f Compiler 2010.06 Jun 16 2010
@@ -90,5 +90,12 @@ QuestaSim-64 vlog 6.5f Compiler 2010.06 Jun 16 2010
 
 Top level modules:
 	arm_mem_stage
+
+} {} {}} /home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_if_stage.sv {1 {vlog -work work -novopt -sv +incdir+/home/tong/myProject/ARM_Pipelining/lab3/sim/src -nocovercells /home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_if_stage.sv
+QuestaSim-64 vlog 6.5f Compiler 2010.06 Jun 16 2010
+-- Compiling module arm_if_stage
+
+Top level modules:
+	arm_if_stage
 
 } {} {}}

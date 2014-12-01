@@ -101,25 +101,25 @@ add wave -noupdate -expand -group ex_stage -format Literal -radix hexadecimal :t
 add wave -noupdate -expand -group ex_stage -format Literal -radix hexadecimal :testbench:top:ex_stage:mac_cpsr
 add wave -noupdate -expand -group ex_stage -format Literal -radix hexadecimal :testbench:top:ex_stage:final_cpsr_mask
 add wave -noupdate -expand -group ex_stage -format Literal -radix hexadecimal :testbench:top:ex_stage:tmp_cpsr
-add wave -noupdate -group mem_stage -format Logic :testbench:top:mem_stage:clk
-add wave -noupdate -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:EXMEM_data_result
-add wave -noupdate -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:EXMEM_rd_data
-add wave -noupdate -group mem_stage -format Logic -radix hexadecimal :testbench:top:mem_stage:EXMEM_rd_we
-add wave -noupdate -group mem_stage -format Logic -radix hexadecimal :testbench:top:mem_stage:EXMEM_rd_data_sel
-add wave -noupdate -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:EXMEM_des_reg_num
-add wave -noupdate -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:EXMEM_mem_write_en
-add wave -noupdate -group mem_stage -format Logic -radix hexadecimal :testbench:top:mem_stage:EXMEM_ld_byte_or_word
-add wave -noupdate -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:mem_data_out
-add wave -noupdate -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:mem_addr
-add wave -noupdate -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:mem_write_en
-add wave -noupdate -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:MEMWB_data_read_from_mem
-add wave -noupdate -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:MEMWB_rd_data
-add wave -noupdate -group mem_stage -format Logic -radix hexadecimal :testbench:top:mem_stage:MEMWB_rd_we
-add wave -noupdate -group mem_stage -format Logic -radix hexadecimal :testbench:top:mem_stage:MEMWB_rd_data_sel
-add wave -noupdate -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:MEMWB_des_reg_num
-add wave -noupdate -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:word_offset
-add wave -noupdate -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:for_modified_mem_data_out
-add wave -noupdate -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:modified_mem_data_out
+add wave -noupdate -expand -group mem_stage -format Logic :testbench:top:mem_stage:clk
+add wave -noupdate -expand -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:EXMEM_data_result
+add wave -noupdate -expand -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:EXMEM_rd_data
+add wave -noupdate -expand -group mem_stage -format Logic -radix hexadecimal :testbench:top:mem_stage:EXMEM_rd_we
+add wave -noupdate -expand -group mem_stage -format Logic -radix hexadecimal :testbench:top:mem_stage:EXMEM_rd_data_sel
+add wave -noupdate -expand -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:EXMEM_des_reg_num
+add wave -noupdate -expand -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:EXMEM_mem_write_en
+add wave -noupdate -expand -group mem_stage -format Logic -radix hexadecimal :testbench:top:mem_stage:EXMEM_ld_byte_or_word
+add wave -noupdate -expand -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:mem_data_out
+add wave -noupdate -expand -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:mem_addr
+add wave -noupdate -expand -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:mem_write_en
+add wave -noupdate -expand -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:MEMWB_data_read_from_mem
+add wave -noupdate -expand -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:MEMWB_rd_data
+add wave -noupdate -expand -group mem_stage -format Logic -radix hexadecimal :testbench:top:mem_stage:MEMWB_rd_we
+add wave -noupdate -expand -group mem_stage -format Logic -radix hexadecimal :testbench:top:mem_stage:MEMWB_rd_data_sel
+add wave -noupdate -expand -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:MEMWB_des_reg_num
+add wave -noupdate -expand -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:word_offset
+add wave -noupdate -expand -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:for_modified_mem_data_out
+add wave -noupdate -expand -group mem_stage -format Literal -radix hexadecimal :testbench:top:mem_stage:modified_mem_data_out
 add wave -noupdate -group wb_stage -format Logic -radix hexadecimal :testbench:top:wb_stage:clk
 add wave -noupdate -group wb_stage -format Literal -radix hexadecimal :testbench:top:wb_stage:MEMWB_data_read_from_mem
 add wave -noupdate -group wb_stage -format Literal -radix hexadecimal :testbench:top:wb_stage:MEMWB_rd_data
@@ -129,26 +129,26 @@ add wave -noupdate -group wb_stage -format Literal -radix hexadecimal :testbench
 add wave -noupdate -group wb_stage -format Literal -radix hexadecimal :testbench:top:wb_stage:WB_data
 add wave -noupdate -group wb_stage -format Logic -radix hexadecimal :testbench:top:wb_stage:WB_rd_we
 add wave -noupdate -group wb_stage -format Literal -radix hexadecimal :testbench:top:wb_stage:WB_des_reg_num
-add wave -noupdate -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:rn_num
-add wave -noupdate -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:rm_num
-add wave -noupdate -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:rs_num
-add wave -noupdate -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:rd_num
-add wave -noupdate -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:rd_data
-add wave -noupdate -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:pc_in
-add wave -noupdate -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:cpsr_in
-add wave -noupdate -group regfile -format Logic -radix hexadecimal :testbench:top:register_file:rd_we
-add wave -noupdate -group regfile -format Logic -radix hexadecimal :testbench:top:register_file:pc_we
-add wave -noupdate -group regfile -format Logic -radix hexadecimal :testbench:top:register_file:cpsr_we
-add wave -noupdate -group regfile -format Logic -radix hexadecimal :testbench:top:register_file:clk
-add wave -noupdate -group regfile -format Logic -radix hexadecimal :testbench:top:register_file:rst_b
-add wave -noupdate -group regfile -format Logic -radix hexadecimal :testbench:top:register_file:halted
-add wave -noupdate -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:rn_data
-add wave -noupdate -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:rm_data
-add wave -noupdate -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:rs_data
-add wave -noupdate -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:pc_out
-add wave -noupdate -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:cpsr_out
-add wave -noupdate -group regfile -format Literal -radix hexadecimal -expand :testbench:top:register_file:mem
-add wave -noupdate -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:cpsr
+add wave -noupdate -expand -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:rn_num
+add wave -noupdate -expand -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:rm_num
+add wave -noupdate -expand -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:rs_num
+add wave -noupdate -expand -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:rd_num
+add wave -noupdate -expand -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:rd_data
+add wave -noupdate -expand -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:pc_in
+add wave -noupdate -expand -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:cpsr_in
+add wave -noupdate -expand -group regfile -format Logic -radix hexadecimal :testbench:top:register_file:rd_we
+add wave -noupdate -expand -group regfile -format Logic -radix hexadecimal :testbench:top:register_file:pc_we
+add wave -noupdate -expand -group regfile -format Logic -radix hexadecimal :testbench:top:register_file:cpsr_we
+add wave -noupdate -expand -group regfile -format Logic -radix hexadecimal :testbench:top:register_file:clk
+add wave -noupdate -expand -group regfile -format Logic -radix hexadecimal :testbench:top:register_file:rst_b
+add wave -noupdate -expand -group regfile -format Logic -radix hexadecimal :testbench:top:register_file:halted
+add wave -noupdate -expand -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:rn_data
+add wave -noupdate -expand -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:rm_data
+add wave -noupdate -expand -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:rs_data
+add wave -noupdate -expand -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:pc_out
+add wave -noupdate -expand -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:cpsr_out
+add wave -noupdate -expand -group regfile -format Literal -radix hexadecimal -expand :testbench:top:register_file:mem
+add wave -noupdate -expand -group regfile -format Literal -radix hexadecimal :testbench:top:register_file:cpsr
 add wave -noupdate -expand -group tb -format Literal -radix hexadecimal :testbench:addr
 add wave -noupdate -expand -group tb -format Logic -radix hexadecimal :testbench:clk
 add wave -noupdate -expand -group tb -format Logic -radix hexadecimal :testbench:inst_excpt
@@ -161,8 +161,15 @@ add wave -noupdate -expand -group tb -format Literal -radix hexadecimal :testben
 add wave -noupdate -expand -group tb -format Literal -radix hexadecimal :testbench:mem_data_out
 add wave -noupdate -expand -group tb -format Literal -radix hexadecimal :testbench:mem_write_en
 add wave -noupdate -expand -group tb -format Logic -radix hexadecimal :testbench:rst_b
+add wave -noupdate -expand -group Memory -format Literal -radix hexadecimal {:testbench:Memory:data_seg[0]}
+add wave -noupdate -expand -group Memory -format Literal -radix hexadecimal {:testbench:Memory:data_seg[1]}
+add wave -noupdate -expand -group Memory -format Literal -radix hexadecimal {:testbench:Memory:data_seg[2]}
+add wave -noupdate -expand -group Memory -format Literal -radix hexadecimal {:testbench:Memory:data_seg[3]}
+add wave -noupdate -expand -group Memory -format Literal -radix hexadecimal {:testbench:Memory:data_seg[4]}
+add wave -noupdate -expand -group Memory -format Literal -radix hexadecimal :testbench:Memory:addr2
+add wave -noupdate -expand -group Memory -format Literal -radix hexadecimal :testbench:Memory:data_out2
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {372 ns} 0}
+WaveRestoreCursors {{Cursor 1} {2522 ns} 0}
 configure wave -namecolwidth 362
 configure wave -valuecolwidth 197
 configure wave -justifyvalue left
@@ -177,4 +184,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ns
 update
-WaveRestoreZoom {0 ns} {492 ns}
+WaveRestoreZoom {2178 ns} {2670 ns}

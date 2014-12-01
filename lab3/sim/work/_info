@@ -42,10 +42,10 @@ R7
 varm_control
 R1
 R2
-IkOICIGJQLiMz:GaS<odOG2
+Il^?HDj7RBkoCEKilV:CRW1
 VKf@?^Fea;W=9BkUSkQaIj0
 S1
-w1417457213
+w1417469219
 8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_control.sv
 F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_control.sv
 L0 5
@@ -55,7 +55,7 @@ r1
 R5
 R6
 R7
-!s100 e?:1aPkK69AYS2TBJ]]_e0
+!s100 Sel[DjQn:<Yg;l=@f80<h1
 !s85 0
 varm_ex_stage
 R1
@@ -147,10 +147,10 @@ Z10 !s92 -work work +incdir+/home/tong/myProject/ARM_Pipelining/lab3/sim/src -no
 varm_mem_stage
 R1
 R2
-Il9Yc3modV6geFI[TCnW=93
+ISBcWT1CmYnG=UWolReiME2
 VZV:d_Wh_@:e3e5:b0Q_VD3
 S1
-w1417465024
+w1417470219
 8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_mem_stage.sv
 F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_mem_stage.sv
 L0 5
@@ -160,7 +160,7 @@ r1
 R5
 R6
 R7
-!s100 1IZake:JoeWDU=5kiWB0z2
+!s100 FAYIdG@H@YLA]MFGQ;k4f2
 !s85 0
 varm_top
 R1
