@@ -63,7 +63,7 @@ R2
 I3B:5YN3e=RSD5?eMAD;Wl1
 ViOTeM`WLo]0c_ZI[aR`AV2
 S1
-w1417380399
+Z8 w1417895331
 8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_ex_stage.sv
 F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_ex_stage.sv
 L0 5
@@ -81,7 +81,7 @@ R2
 I5Q9Cb:99C@TQYjIezc5bh1
 V?I85WVZ@9b6k_nIgC:8oC1
 S1
-w1417385406
+R8
 8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_id_stage.sv
 F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_id_stage.sv
 L0 5
@@ -132,7 +132,7 @@ R7
 varm_mem
 IW^cE?o=P`P3LfEe]_ZhIV3
 V6gM;OHhchlhkBBLm<ec4N1
-Z8 w1417037818
+Z9 w1417037818
 8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_mem.v
 F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_mem.v
 L0 72
@@ -140,17 +140,17 @@ R4
 r1
 31
 R5
-Z9 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
-Z10 !s92 -work work +incdir+/home/tong/myProject/ARM_Pipelining/lab3/sim/src -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z10 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z11 !s92 -work work +incdir+/home/tong/myProject/ARM_Pipelining/lab3/sim/src -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
 !s100 7iZDz_FIbOh;Y`jM_b2PZ2
 !s85 0
 varm_mem_stage
 R1
 R2
-ISBcWT1CmYnG=UWolReiME2
+IIOM;[WHk:^W9LOb3BVTJi2
 VZV:d_Wh_@:e3e5:b0Q_VD3
 S1
-w1417470219
+w1417899724
 8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_mem_stage.sv
 F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_mem_stage.sv
 L0 5
@@ -160,7 +160,7 @@ r1
 R5
 R6
 R7
-!s100 FAYIdG@H@YLA]MFGQ;k4f2
+!s100 XaGVeWgADeAbm42kZ<9R^0
 !s85 0
 varm_top
 R1
@@ -168,7 +168,7 @@ R2
 IUmHjjNCbj]A7m<fa6YV9f1
 Vb=F59lCmgT_8^9[EBYCJZ1
 S1
-Z11 w1417459887
+R8
 Z12 8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_top.sv
 Z13 F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/arm_top.sv
 L0 21
@@ -211,8 +211,8 @@ r1
 !s85 0
 31
 R5
-R9
 R10
+R11
 vhazard_detect
 R1
 R2
@@ -234,7 +234,7 @@ R7
 vregfile
 Ia0al1j9Ph_iG?5lk8g<f52
 V3ZYR1AhCB`2<hBgO;NX9L0
-R8
+R9
 8/home/tong/myProject/ARM_Pipelining/lab3/sim/src/regfile.v
 F/home/tong/myProject/ARM_Pipelining/lab3/sim/src/regfile.v
 L0 34
@@ -242,8 +242,8 @@ R4
 r1
 31
 R5
-R9
 R10
+R11
 !s100 `h`O@z<Id@YQoCa]:OOeS1
 !s85 0
 vregister
@@ -252,7 +252,7 @@ R2
 IAUz?X5<[zUcHMKZ8_mGaL2
 VEaBzRJg7MDcJbnNQR0;?13
 S1
-R11
+R8
 R12
 R13
 L0 4
@@ -277,5 +277,5 @@ r1
 !s85 0
 31
 R5
-R9
 R10
+R11

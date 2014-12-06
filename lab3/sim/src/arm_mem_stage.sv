@@ -59,7 +59,7 @@ always_comb begin
 end
 
 always_ff @ (posedge clk) begin
-	MEMWB_data_read_from_mem <= (EXMEM_ld_byte_or_word) ? {24'h000000, modified_mem_data_out} : modified_mem_data_out;
+	MEMWB_data_read_from_mem <= (EXMEM_ld_byte_or_word) ? {24'h000000, modified_mem_data_out[7:0]} : modified_mem_data_out;
 	MEMWB_rd_data <= EXMEM_data_result;
 	MEMWB_rd_we <= EXMEM_rd_we;
 	MEMWB_rd_data_sel <= EXMEM_rd_data_sel;
